@@ -1,4 +1,4 @@
--- Drop in reverse order (safe re-run)
+-- Drop in reverse order    (safe re-run)
 BEGIN
   FOR t IN (SELECT table_name FROM user_tables
             WHERE table_name IN ('GRADE_AUDIT','ENROLLMENTS','COURSES','STUDENTS')) LOOP
