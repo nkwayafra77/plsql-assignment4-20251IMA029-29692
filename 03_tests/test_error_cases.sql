@@ -49,7 +49,7 @@ EXCEPTION WHEN OTHERS THEN DBMS_OUTPUT.PUT_LINE('Expected error: ' || SQLERRM);
 END;
 /
 PROMPT === E8: drop enrollment that does not exist, SQL%NOTFOUND (ORA-20051) ===
-DECLARE v_rows NUMBER;
+DECLARE v_rows NUMBER; 
 BEGIN drop_enrollment(101, 4, v_rows);
 EXCEPTION WHEN OTHERS THEN DBMS_OUTPUT.PUT_LINE('Expected error: ' || SQLERRM);
 END;
