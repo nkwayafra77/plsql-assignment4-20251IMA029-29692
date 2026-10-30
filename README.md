@@ -11,7 +11,7 @@
 |Nkwaya Frank | 20251IMA029 | 
 |Nkurunziza Amiable | 29692 | 
 
-**Class group:** _I_ 
+**Class group:** _I
 
 ## 2. Application description
 
