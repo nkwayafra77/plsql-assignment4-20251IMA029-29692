@@ -1,4 +1,4 @@
-# Implementation and Performance Notes
+#Implementation and Performance Notes
 
 ## Design in one paragraph
 Four tables hold the data. Business rules live in stored functions (grading, GPA, lookups) and stored procedures (register, enroll, update marks, drop, bulk operations, reports). Procedures do **not** commit; the caller decides when to COMMIT or ROLLBACK, which keeps each operation atomic and testable.
