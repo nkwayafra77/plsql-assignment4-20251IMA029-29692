@@ -12,7 +12,7 @@ IS
       FROM enrollments e
       JOIN courses c ON c.course_id = e.course_id
      WHERE e.student_id = p_student_id
-       AND e.grade IS NOT NULL;
+      AND e.grade IS NOT NULL;
 
   r_grade c_grades%ROWTYPE;   -- %ROWTYPE record based on a cursor
 BEGIN
